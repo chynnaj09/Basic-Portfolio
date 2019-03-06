@@ -1,0 +1,108 @@
+<!-- <!- radio button - is another input tag -->
+<!-- select tag - is how we get dropdown menus -->
+<!-- textarea tag - create text inputs that are multiple lines long -->
+
+<!-- <!DOCTYPE html> -->
+<!-- <html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+	<label for="dogs">Dogs:</label>
+	<input id="dogs" type="radio" name="PetChoice"
+	value="DOGS">
+	
+	<label for="cats">Cats:</label>
+	<input id="cats" type="radio" name="PetChoice"
+	value="CATS">
+<p>What's your current mood?</p>
+
+<select name="mood">
+	<option value="happy">:)</option>
+	<option value="neutral">:|</option>
+	<option value="sad">:(</option>
+</select>
+
+<textarea name="paragraph" rows="10" cols="10"></textarea>
+
+<button>Go!</button>
+</form>
+
+
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<label for="username" >First Name:</label>
+	<input id="username" type="text" placeholder="John" required="">
+
+	<label for="username" >Last Name:</label>
+	<input id="username" type="text" placeholder="Smith" required="">
+
+
+<div>
+	<label for="Male">Male</label>
+	<input id="Male" type="radio" name="GenderChoice"
+	value="Male">
+
+	<label for="Female">Female</label>
+	<input id="Female" type="radio" name="GenderChoice"
+	value="Female">
+
+	<label for="Other">Other</label>
+	<input id="Other" type="radio" name="GenderChoice"
+	value="Other">
+</div>
+
+<div>
+	<label for="username"> Email:</label>
+	<input id="username" type="Email" placeholder="Email" required="">
+
+	<label for="password">Password:</label>
+	<input id="username" type="Password" placeholder="Password" pattern=".(5,10)" required title="Password must be 5 and 10 characters">
+</div>
+<div>
+	<label for="month">Birthday:</label>
+	<select for="month">Month
+	<option value="month">Month</option>
+	<option value="Jan">January</option>
+	<option value="Feb">February</option>
+	<option value="Mar">March</option>
+	<option value="April">April</option>	
+	</select>	
+
+	<select name="Day" required>
+		<option value="Day">Day</option>
+		<option value="01">01</option>
+		<option value="02">02</option>
+	</select>
+
+	<select name="Year">
+		<option value="Year">Year</option>
+		<option value="1991">1991</option>
+	</select>
+</div>
+
+<div>
+	<label for="agreed">I agree to the terms and conditions:</label>
+	<input id="agreed" type="checkbox" name="agreed">
+</div>
+
+<input type="submit" name="submit">
+
+</form>
+</body>
+</html>
