@@ -1,11 +1,12 @@
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   overflow: hidden;
   background-color: #774242;
   font-style: color #777777;
 }
+
 
 li {
   float: right;
@@ -22,4 +23,45 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+body {
+  background: url("ep_naturalwhite/ep_naturalwhite.png");
+}
+
+h1 {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: wheat;
+  width: 18%;
+}
+
+p {
+  float: ;
+  text-align: right;
+width: 33%
+}
+
+#me{
+  float: left;
+}
+
+form{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+.wrapper{
+  min-height: 100%;
+  margin-bottom: -50px
+}
+
+.footer,
+.push {
+  text-align: center;
+  height: 50px;
 }
