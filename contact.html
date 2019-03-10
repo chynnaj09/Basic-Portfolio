@@ -9,51 +9,50 @@
 </head>
 <body>
 <div class="wrapper">
-<div>
+<section id="heading">
+    <div>
     <h1>Chynna Johnson</h1>
 </div>
 <div>
     <!-- Navbar -->
     <ul>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>
     </ul>
 </div>
 
 
 <h2 id="contact">Contact</h2>
+<div class="container">
+    <form class="contact">
 
-<form class="contact">
-<div> 
-    <label for="username">Name:</label>
-</div>
-
-<div>
-    <input id="username" type="text" placeholder="John Smith" required="">
-</div>
-
-<div>
-    <label for="username"> Email:</label>
-</div>   
+     <div>
+        <label for="username">Name:</label>
+        <input id="username" type="text" placeholder="John Smith" required="">
+    </div>
     
-<div>
-<input id="username" type="Email" placeholder="Email" required="">
-</div>
+    <div>
+        <label for="username"> Email:</label>
+        <input id="username" type="Email" placeholder="Email" required="">
+    </div>
 
-<div>
-    <label for="Message"> Message:</label>
-</div>
+    <div>
+        <label for="Message"> Message:</label>
+    </div>
+        <textarea name="Message" rows="10" cols="100"></textarea>
+        
 
-<div>
-    <textarea name="Message" rows="10" cols="100"></textarea>
+     <input type="submit" value="Submit">   
+    </form>
 </div>
-</form>
 
 <div class="push">
 </div>
 </div>
 <footer class="footer">copyright</footer>
+
+</section>
 
 </body>
 </html>
