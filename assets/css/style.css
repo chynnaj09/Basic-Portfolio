@@ -38,8 +38,14 @@ li a:hover {
   background-color:wheat;
 }
 
+
+
+@media only screen and (max-width: 600px) {
 body {
-  background: url("ep_naturalwhite/ep_naturalwhite.png");
+
+  background-color: lightblue;
+}  
+  
 }
 
 h1 {
@@ -98,4 +104,9 @@ form{
   text-align: center;
   height: 50px;
   border-top: 1px solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
